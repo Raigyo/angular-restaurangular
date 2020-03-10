@@ -5,7 +5,7 @@ import { MatTable } from '@angular/material/table';
 import { DishTableDataSource, DishTableItem } from './dish-table-datasource';
 
 @Component({
-  selector: 'app-dish-table',
+  selector: 'dish-table',
   templateUrl: './dish-table.component.html',
   styleUrls: ['./dish-table.component.css']
 })
@@ -16,7 +16,7 @@ export class DishTableComponent implements AfterViewInit, OnInit {
   dataSource: DishTableDataSource;
 
   /** Columns displayed in the table. Columns IDs can be added, removed, or reordered. */
-  displayedColumns = ['id', 'name'];
+  displayedColumns = ['name', 'price'];
 
   ngOnInit() {
     this.dataSource = new DishTableDataSource();
