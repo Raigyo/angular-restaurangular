@@ -6,6 +6,8 @@ Routes (RouterModule, Routes, Route)
 
 Angular Material Card
 
+Angular Material Data Table + Data source (using interface)
+
 ## Local 
 
 ### CLI
@@ -46,7 +48,7 @@ Angular Material module helps us to create high-quality UI applications with Ang
 
 `ng add @angular/material`
 
-Ex: `ng generate @angular/material:materialNav --name=main-nav`
+Ex add component: `ng generate @angular/material:materialNav --name=main-nav`
 
 https://material.angular.io/guide/getting-started
 https://material.angular.io/components/categories

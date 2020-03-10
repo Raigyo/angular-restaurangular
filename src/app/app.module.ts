@@ -21,6 +21,10 @@ import { ContactComponent } from './contact/contact.component';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatMenuModule } from '@angular/material/menu';
 import { MainDashComponent } from './main-dash/main-dash.component';
+import { MatTableModule } from '@angular/material/table';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatSortModule } from '@angular/material/sort';
+import { DishTableComponent } from './dish-table/dish-table.component';
 
 
 //Routes
@@ -40,6 +44,7 @@ const routes: Routes = [
     BookingComponent,
     ContactComponent,
     MainDashComponent,
+    DishTableComponent,
   ],
   imports: [
     BrowserModule,
@@ -54,7 +59,10 @@ const routes: Routes = [
     MatCardModule,
     RouterModule.forRoot(routes),
     MatGridListModule,
-    MatMenuModule//module to use routes created     
+    MatMenuModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatSortModule//module to use routes created     
   ],
   providers: [],
   bootstrap: [AppComponent]
