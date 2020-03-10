@@ -20,6 +20,7 @@ import { BookingComponent } from './booking/booking.component';
 import { ContactComponent } from './contact/contact.component';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatMenuModule } from '@angular/material/menu';
+import { MainDashComponent } from './main-dash/main-dash.component';
 
 
 //Routes
@@ -38,6 +39,7 @@ const routes: Routes = [
     MenuComponent,
     BookingComponent,
     ContactComponent,
+    MainDashComponent,
   ],
   imports: [
     BrowserModule,
