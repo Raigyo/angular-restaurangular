@@ -1,27 +1,52 @@
 # Restaurangular
 
+Material
+Routes (RouterModule, Routes, Route)
+Angular Material Card
+
+## Local 
+
+### CLI
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.5.
 
-## Development server
+https://angular.io/cli
+
+~~~~
+npm install -g @angular/cli
+ng new my-first-project
+cd my-first-project
+~~~~
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+#### Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+Ex: `ng g c Home` 
+
+#### Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+#### Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+#### Running end-to-end tests
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
+### Material
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Angular Material module helps us to create high-quality UI applications with Angular framework by following Material Design specifications.
+
+`ng add @angular/material`
+
+Ex: `ng generate @angular/material:materialNav --name=main-nav`
+
+https://material.angular.io/guide/getting-started
+https://material.angular.io/components/categories
+https://medium.com/codingthesmartway-com-blog/angular-material-and-angular-6-material-design-for-angular-6b1a3ee476f0
+https://www.ngdevelop.tech/external-library-angular-schematics-list/
