@@ -1,3 +1,4 @@
+//import with{decorators}
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes, Route } from '@angular/router';//routage
