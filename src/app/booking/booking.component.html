@@ -1,1 +1,50 @@
-<p>booking works!</p>
+<div *ngIf="!isScheduleOk">
+    <form [formGroup]="reservationForm" (submit)="saveReservation()" class="example-container">
+        <mat-form-field>
+            <input matInput [matDatepicker]="myDatepicker" placeholder="Date" formControlName="date">
+            <mat-datepicker-toggle matSuffix [for]="myDatepicker"></mat-datepicker-toggle>
+            <mat-datepicker #myDatepicker></mat-datepicker>
+        </mat-form-field>
+        <mat-form-field>
+            <mat-select placeholder="Heure" formControlName="time">
+            <mat-option *ngFor="let to of timeOptions" [value]="to">
+                {{to}}
+            </mat-option>
+            </mat-select>
+        </mat-form-field>
+        <mat-form-field>
+            <mat-select placeholder="Combien de personnes" formControlName="time">
+            <mat-option *ngFor="let po of peopleOptions" [value]="po">
+                {{po}}
+            </mat-option>
+            </mat-select>
+        </mat-form-field>
+        <button mat-button type="submit">Confirmer l'horaire</button> 
+    </form>
+</div>
+<!--{{ reservationForm.value | json}}-->
+
+<div *ngIf="isScheduleOk">
+    <!-- template driven form # is used to create var-->
+    <form #f="ngForm" (submit)="finalizeReservation(f.value)" class="example-container">
+        <mat-form-field>
+            <!-- banana in a box: [(ngModel)] two way binding [] TS / () HTML -->
+            <input matInput type="text" name="firstName" placeholder="Prénom" [(ngModel)]="client.firstName"> 
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput type="text" [(ngModel)]="client.lastName" name="lastName" placeholder="Nom" required />
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput type="text" [(ngModel)]="client.email" name="email" placeholder="Email" required />
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput type="text" [(ngModel)]="client.phone" name="phone" placeholder="Téléphone" required />
+        </mat-form-field>
+        <button mat-button type="submit">Réserver</button> 
+    </form>
+</div>
+<!-- ?. 'Elvis operator'/safe navigation operator 
+    allows you to check for the existence an object before attempting 
+    to access its properties in your interpolation -->
+<!-- In other languages Elvis operator = Ternary Operator ?: -->
+<!-- {{ f.controls.firstName?.value}} -->

@@ -26,7 +26,12 @@ import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
 import { DishTableComponent } from './dish-table/dish-table.component';
-
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
+import {MatDatepickerModule} from '@angular/material/datepicker';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatInputModule} from '@angular/material/input';
+import {MatNativeDateModule} from '@angular/material/core';
+import {MatSelectModule} from '@angular/material/select';
 
 //Routes
 const routes: Routes = [
@@ -63,7 +68,14 @@ const routes: Routes = [
     MatMenuModule,
     MatTableModule,
     MatPaginatorModule,
-    MatSortModule//module to use routes created     
+    MatSortModule,//module to use routes created
+    ReactiveFormsModule,
+    FormsModule,
+    MatDatepickerModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatNativeDateModule,
+    MatSelectModule
   ],
   providers: [],
   bootstrap: [AppComponent]

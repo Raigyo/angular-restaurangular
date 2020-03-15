@@ -8,6 +8,10 @@ Angular Material Card
 
 Angular Material Data Table + Data source (using interface)
 
+Forms (Reactive forms, driven form)
+
+OnInit: A lifecycle hook
+
 ## Local 
 
 ### CLI
