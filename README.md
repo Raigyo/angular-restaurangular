@@ -2,7 +2,7 @@
 
 *March 2020*
 
-> 🔨 Restaurant website. From Udemy '[Angular 6, Angular Material et RxJS 6 par la pratique](https://www.udemy.com/course/angular-6-angular-material-et-rxjs-6-par-la-pratique/)'. It covers the basics concepts of Angular and RxJS: materials, reactive forms, observables...
+> 🔨 Restaurant website. From Udemy '[Angular, Angular Material et RxJS par la pratique](https://www.udemy.com/course/angular-6-angular-material-et-rxjs-6-par-la-pratique/)'. It covers the basics concepts of Angular and RxJS: materials, reactive forms, observables...
 
 See the **demo** on [Github page]().
 
@@ -33,6 +33,7 @@ See the **demo** on [Github page]().
 - Material Data Table + Data source (using interfaces as models)
 - Templates: Forms (Reactive forms, templates driven forms '#', structural directives '*': shape or reshape the DOM's structure), lifecycle hooks (OnInit), interpolation {{...}} / two way binding [()], ...
 - Reactive Extensions Library for JavaScript (RxJS) and Observables, Operators, flux/push/callbacks, tap, map, switchMap, ...
+- Communication between components and custom events (input: from parent to children / output: from children to parents), dynamic content
 
 ## 4. Angular CLI
 

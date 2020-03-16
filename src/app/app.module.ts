@@ -39,6 +39,7 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
 import {MatNativeDateModule} from '@angular/material/core';
 import {MatSelectModule} from '@angular/material/select';
+import { PhoneComponent } from './phone/phone.component';
 
 
 //Routes
@@ -61,6 +62,7 @@ const routes: Routes = [
     MainDashComponent,
     DishTableComponent,
     ScheduleComponent,
+    PhoneComponent,
   ],
   imports: [
     BrowserModule,
