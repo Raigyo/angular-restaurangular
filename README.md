@@ -18,7 +18,7 @@ Restaurant website with menus, booking and scheduling of special evenings with a
 
 ### Local
 
-- Clone the [local-version branch]()
+- Clone the [local-version branch](https://github.com/Raigyo/angular-restaurangular/tree/local-version)
 - Tu run: `ng serve -o`
 - Open the app using [http://localhost:4200/](http://localhost:4200/)
 
