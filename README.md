@@ -1,34 +1,36 @@
-# Angular + RxJS: 'Restaurangular' - website for a restaurant
+# Angular + RxJS: 'Restaurangular' - website for a restaurant 
 
 *March 2020*
 
-> 🔨 Restaurant website with menus, booking and scheduling of special evenings with a searchbar. From Udemy '[Angular 6, Angular Material et RxJS 6 par la pratique](https://www.udemy.com/course/angular-6-angular-material-et-rxjs-6-par-la-pratique/)'.
+> 🔨 Restaurant website. From Udemy '[Angular 6, Angular Material et RxJS 6 par la pratique](https://www.udemy.com/course/angular-6-angular-material-et-rxjs-6-par-la-pratique/)'. It covers the basics concepts of Angular and RxJS: materials, reactive forms, observables...
+
+See the **demo** on [Github page]().
 
 ![Angular logo](readme-img/angular-logo.png)
 
 ## About
 
-
+Restaurant website with menus, booking and scheduling of special evenings with a searchbar.
 
 ## How to use
 
-## Concept used
+### Local
 
-Routes (RouterModule, Routes, Route)
+- Clone the [local-version branch]()
+- Tu run: 
+- Open the app using [http://localhost:4200/](http://localhost:4200/)
 
-Modules / Components / Providers (app.module.ts: import {decorators} / NgModule)
+### Online
 
-Material Data Table + Data source (using interfaces as models)
+See the **demo** on [Github page]().
 
-Templates: Forms (Reactive forms, templates driven forms '#', structural directives '*': shape or reshape the DOM's structure)
+## Concepts covered
 
-OnInit: A lifecycle hook
-
-Interpolation {{...}} / two way binding [()]
-
-Reactive Extensions Library for JavaScript (RxJS) and Observables, Operators, flux/push/callbacks, tap, map, switchMap
-- Forms, http requests, routage
-
+- Routes (RouterModule, Routes, Route)
+- Modules / Components / Providers (app.module.ts: import {decorators} / NgModule)
+- Material Data Table + Data source (using interfaces as models)
+- Templates: Forms (Reactive forms, templates driven forms '#', structural directives '*': shape or reshape the DOM's structure), lifecycle hooks (OnInit), interpolation {{...}} / two way binding [()], ...
+- Reactive Extensions Library for JavaScript (RxJS) and Observables, Operators, flux/push/callbacks, tap, map, switchMap, ...
 
 ## Local 
 
@@ -76,14 +78,9 @@ Angular Material module helps us to create high-quality UI applications with Ang
 
 Ex add component: `ng generate @angular/material:materialNav --name=main-nav`
 
-https://material.angular.io/guide/getting-started
-https://material.angular.io/components/categories
-https://medium.com/codingthesmartway-com-blog/angular-material-and-angular-6-material-design-for-angular-6b1a3ee476f0
-https://www.ngdevelop.tech/external-library-angular-schematics-list/
-
-
 ## Ressources
 
-[Angular Material](https://material.angular.io/)
-[Learn RxJS](https://www.learnrxjs.io/)
-[How to deploy Angular Apps to GitHub Pages (gh-pages)](https://medium.com/tech-insights/how-to-deploy-angular-apps-to-github-pages-gh-pages-896c4e10f9b4)
+- [Angular Material](https://material.angular.io/)
+- [List of External Library Angular Schematics](https://www.ngdevelop.tech/external-library-angular-schematics-list/)
+- [Learn RxJS](https://www.learnrxjs.io/)
+- [How to deploy Angular Apps to GitHub Pages (gh-pages)](https://medium.com/tech-insights/how-to-deploy-angular-apps-to-github-pages-gh-pages-896c4e10f9b4)
