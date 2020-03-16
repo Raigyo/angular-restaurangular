@@ -12,7 +12,7 @@ See the **demo** on [Github page]().
 
 Restaurant website with menus, booking and scheduling of special evenings with a searchbar.
 
-*Note:* the tutorial was for Angular 6 but this versions uses **Angular 9**.
+*Note:* the tutorial was for Angular 6 but this versions uses **Angular 9.0.5**.git push
 
 ## 2. How to use
 
