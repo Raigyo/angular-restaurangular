@@ -24,6 +24,7 @@
 </div>
 <!--{{ reservationForm.value | json}}-->
 
+<!-- *: structural directives -->
 <div *ngIf="isScheduleOk">
     <!-- template driven form # is used to create var-->
     <form #f="ngForm" (submit)="finalizeReservation(f.value)" class="example-container">

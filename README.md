@@ -1,16 +1,22 @@
 # Restaurangular
 
-Material
+## Concept used
 
 Routes (RouterModule, Routes, Route)
 
-Angular Material Card
+Modules / Components / Providers (app.module.ts: import {decorators} / NgModule)
 
-Angular Material Data Table + Data source (using interface)
+Material Data Table + Data source (using interfaces as models)
 
-Forms (Reactive forms, driven form)
+Templates: Forms (Reactive forms, templates driven forms '#', structural directives '*': shape or reshape the DOM's structure)
 
 OnInit: A lifecycle hook
+
+Interpolation {{...}} / two way binding [()]
+
+Reactive Extensions Library for JavaScript (RxJS) and Observables, Operators, flux/push/callbacks
+- Forms, http requests, routage
+
 
 ## Local 
 
@@ -62,3 +68,10 @@ https://material.angular.io/guide/getting-started
 https://material.angular.io/components/categories
 https://medium.com/codingthesmartway-com-blog/angular-material-and-angular-6-material-design-for-angular-6b1a3ee476f0
 https://www.ngdevelop.tech/external-library-angular-schematics-list/
+
+
+## Ressources
+
+[Angular Material](https://material.angular.io/)
+[Learn RxJS](https://www.learnrxjs.io/)
+[How to deploy Angular Apps to GitHub Pages (gh-pages)](https://medium.com/tech-insights/how-to-deploy-angular-apps-to-github-pages-gh-pages-896c4e10f9b4)
