@@ -12,14 +12,14 @@ See the **demo** on [Github page]().
 
 Restaurant website with menus, booking and scheduling of special evenings with a searchbar.
 
-*Note:* the tutorial was for Angular 6 but this versions uses **Angular 9.0.5**.git push
+*Note:* the tutorial was for Angular 6 but this versions uses **Angular 9.0.5**.
 
 ## 2. How to use
 
 ### Local
 
 - Clone the [local-version branch]()
-- Tu run: 
+- Tu run: `ng serve -o`
 - Open the app using [http://localhost:4200/](http://localhost:4200/)
 
 ### Online
