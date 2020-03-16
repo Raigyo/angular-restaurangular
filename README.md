@@ -8,11 +8,11 @@ See the **demo** on [Github page]().
 
 ![Angular logo](readme-img/angular-logo.png)
 
-## About
+## 1. About
 
 Restaurant website with menus, booking and scheduling of special evenings with a searchbar.
 
-## How to use
+## 2. How to use
 
 ### Local
 
@@ -24,7 +24,7 @@ Restaurant website with menus, booking and scheduling of special evenings with a
 
 See the **demo** on [Github page]().
 
-## Concepts covered
+## 3. Concepts covered
 
 - Routes (RouterModule, Routes, Route)
 - Modules / Components / Providers (app.module.ts: import {decorators} / NgModule)
@@ -32,7 +32,7 @@ See the **demo** on [Github page]().
 - Templates: Forms (Reactive forms, templates driven forms '#', structural directives '*': shape or reshape the DOM's structure), lifecycle hooks (OnInit), interpolation {{...}} / two way binding [()], ...
 - Reactive Extensions Library for JavaScript (RxJS) and Observables, Operators, flux/push/callbacks, tap, map, switchMap, ...
 
-## Local 
+## 4. Angular CLI
 
 ### CLI
 
@@ -78,7 +78,7 @@ Angular Material module helps us to create high-quality UI applications with Ang
 
 Ex add component: `ng generate @angular/material:materialNav --name=main-nav`
 
-## Ressources
+## 5. Ressources
 
 - [Angular Material](https://material.angular.io/)
 - [List of External Library Angular Schematics](https://www.ngdevelop.tech/external-library-angular-schematics-list/)
