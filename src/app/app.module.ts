@@ -1,5 +1,5 @@
 //import with{decorators}
-//general components (control html views)/modules ( containing one or many small containers called Component, Service, Pipe)
+//general components (control html views)/ modules ( containing one or many small containers called Component, Service, Pipe)
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
