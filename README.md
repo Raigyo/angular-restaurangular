@@ -1,4 +1,16 @@
-# Restaurangular
+# Angular + RxJS: 'Restaurangular' - website for a restaurant
+
+*March 2020*
+
+> 🔨 Restaurant website with menus, booking and scheduling of special evenings with a searchbar. From Udemy '[Angular 6, Angular Material et RxJS 6 par la pratique](https://www.udemy.com/course/angular-6-angular-material-et-rxjs-6-par-la-pratique/)'.
+
+![Angular logo](readme-img/angular-logo.png)
+
+## About
+
+
+
+## How to use
 
 ## Concept used
 
@@ -14,7 +26,7 @@ OnInit: A lifecycle hook
 
 Interpolation {{...}} / two way binding [()]
 
-Reactive Extensions Library for JavaScript (RxJS) and Observables, Operators, flux/push/callbacks
+Reactive Extensions Library for JavaScript (RxJS) and Observables, Operators, flux/push/callbacks, tap, map, switchMap
 - Forms, http requests, routage
 
 
