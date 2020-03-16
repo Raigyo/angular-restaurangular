@@ -1,4 +1,4 @@
-# Angular 9 + RxJS: 'Restaurangular' - website for a restaurant 
+# Angular 9 + RxJS: 'Restaurangular' - website for a restaurant (menus, booking and scheduling of events)
 
 *March 2020*
 
