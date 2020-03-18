@@ -91,6 +91,8 @@ ng build --prod --base-href https://[username].github.io/[repo]/
 ngh --dir=dist/[project-name]
 ~~~~~
 
+(see *package.json* for the project name)
+
 It is only necessary to set the the--base-href flag once, next time you build the project you can simply run:
 
 `ng build --prod`
