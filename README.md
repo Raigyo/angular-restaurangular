@@ -106,4 +106,4 @@ In order to compile images correctly use path as following:
 - [Angular Material](https://material.angular.io/)
 - [List of External Library Angular Schematics](https://www.ngdevelop.tech/external-library-angular-schematics-list/)
 - [Learn RxJS](https://www.learnrxjs.io/)
-- [How to deploy an Angular 7 app to Github Pages)](https://medium.com/code-sketch/how-to-deploy-an-angular-7-app-to-github-pages-9427b609645f)
+- [How to deploy an Angular 7 app to Github Pages](https://medium.com/code-sketch/how-to-deploy-an-angular-7-app-to-github-pages-9427b609645f)
