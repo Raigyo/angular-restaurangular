@@ -4,7 +4,7 @@
 
 > 🔨 Restaurant website. From Udemy '[Angular, Angular Material et RxJS par la pratique](https://www.udemy.com/course/angular-6-angular-material-et-rxjs-6-par-la-pratique/)'. It covers the basics concepts of Angular and RxJS: materials, reactive forms, observables...
 
-See the **demo** on [Github page]().
+See the **demo** on [Github page](https://raigyo.github.io/angular-restaurangular/).
 
 ![Angular logo](readme-img/angular-logo.png)
 
@@ -24,7 +24,7 @@ Restaurant website with menus, booking and scheduling of special evenings with a
 
 ### Online
 
-See the **demo** on [Github page]().
+See the **demo** on [Github page](https://raigyo.github.io/angular-restaurangular/).
 
 ## 3. Concepts covered
 
@@ -81,9 +81,27 @@ Angular Material module helps us to create high-quality UI applications with Ang
 
 Ex add component: `ng generate @angular/material:materialNav --name=main-nav`
 
-## 5. Ressources
+## 5. Deploy on Github pages
+
+~~~~~
+git checkout -b gh-pages
+git push origin gh-pages
+npm install -g angular-cli-ghpages
+ng build --prod --base-href https://[username].github.io/[repo]/
+ngh --dir=dist/[project-name]
+~~~~~
+
+It is only necessary to set the the--base-href flag once, next time you build the project you can simply run:
+
+`ng build --prod`
+
+In order to compile images correctly use path as following:
+
+`'./assets/images/image.png'`
+
+## 6. Ressources
 
 - [Angular Material](https://material.angular.io/)
 - [List of External Library Angular Schematics](https://www.ngdevelop.tech/external-library-angular-schematics-list/)
 - [Learn RxJS](https://www.learnrxjs.io/)
-- [How to deploy Angular Apps to GitHub Pages (gh-pages)](https://medium.com/tech-insights/how-to-deploy-angular-apps-to-github-pages-gh-pages-896c4e10f9b4)
+- [How to deploy an Angular 7 app to Github Pages)](https://medium.com/code-sketch/how-to-deploy-an-angular-7-app-to-github-pages-9427b609645f)
