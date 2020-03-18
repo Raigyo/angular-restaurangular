@@ -1,7 +1,0 @@
-<!-- $event comes from the parent and is emitted by this.zoom.emit in phone component -->
-<cc-phone [user]="standard" (zoom)="displayBig($event)"></cc-phone>
-<hr>
-<cc-phone [user]="sommelier" (zoom)="displayBig($event)"></cc-phone>
-<hr>
-<cc-phone [user]="chef" (zoom)="displayBig($event)"></cc-phone>
-<div class="phone" *ngIf="numberToDisplay">{{numberToDisplay}}</div>
